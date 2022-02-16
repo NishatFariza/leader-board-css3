@@ -82,6 +82,9 @@ header {
 /* top players styles */
 .top-players {
   margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #ffffff;
 }
 .section-title {
   font-size: 24px;
@@ -89,6 +92,7 @@ header {
   color: #562eff;
   margin-top: 3px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .players {
@@ -213,6 +217,48 @@ top blog styles
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
+
+/* ul section style start*/
+#ul-section {
+  margin-bottom: 1rem;
+  background-color: rgb(34, 172, 172);
+  display: flex;
+  justify-content: space-around;
+}
+.ul-wrapp {
+  text-align: left;
+}
+#ul-list {
+  padding-left: 10px;
+  list-style: none;
+}
+#li-item {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.click-me-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 172, 172);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+
+#input-wrap {
+}
+#ul-input {
+  padding: 0.5rem 0rem;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: #b3adad;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+/* ul section style end*/
 /*-----------------
    media Queries
 -------------------*/
